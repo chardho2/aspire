@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Allow the Arena live-preview proxy hosts to load the dev server.
+  allowedDevOrigins: ["*.e2b.app", "*.arena.ai"],
 };
 
 export default nextConfig;
